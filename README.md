@@ -53,11 +53,11 @@ For more information on the dataset, you can refer to the [original dataset sour
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your-username/credit-card-fraud-detection-webapp.git
+    git clone https://github.com/Shraman-jain/exl_project_team_2.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd credit-card-fraud-detection-webapp
+    cd exl_project_team_2/final_app
     ```
 3. Install the required dependencies:
     ```bash
