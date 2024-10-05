@@ -57,7 +57,7 @@ For more information on the dataset, you can refer to the [original dataset sour
     ```
 2. Navigate to the project directory:
     ```bash
-    cd exl_project_team_2/final_app
+    cd exl_project_team_2/final-app
     ```
 3. Install the required dependencies:
     ```bash
