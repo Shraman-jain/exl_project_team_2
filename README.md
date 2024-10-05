@@ -71,23 +71,25 @@ For more information on the dataset, you can refer to the [original dataset sour
 ---
 
 ## How to Run the App Using Docker
-Important - Make sure you have installed Docker on your PC:
-Linux: Docker
-Windows/Mac: Docker Desktop
-Start Docker:
-Linux (Home Directory):
-sudo systemctl start docker
-Windows: You can start Docker engine from Docker Desktop.
+1. Important - Make sure you have installed Docker on your PC:
+  - Linux: Docker
+  - Windows/Mac: Docker Desktop
+2. Start Docker:
+    - Linux (Home Directory):
+      '''bash
+      sudo systemctl start docker
+      '''
+    - Windows: You can start Docker engine from Docker Desktop.
 
-1. Log in to Docker Hub from the terminal. You can log in with your password or access token:
+3. Log in to Docker Hub from the terminal. You can log in with your password or access token:
     ```bash
     docker login
     ```
-2. Pull the docker image from the docker hub:
+4. Pull the docker image from the docker hub:
     ```bash
     docker pull shramanjain98/webapp:webapp
     ```
-3. Run the Docker Container:
+5. Run the Docker Container:
     ```bash
     docker run -p 8501:8501 shramanjain98/webapp:webapp
     ```
