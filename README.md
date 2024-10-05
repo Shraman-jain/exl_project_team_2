@@ -72,13 +72,13 @@ For more information on the dataset, you can refer to the [original dataset sour
 
 ## How to Run the App Using Docker
 1. Important - Make sure you have installed Docker on your PC:
-  - Linux: Docker
-  - Windows/Mac: Docker Desktop
+    - Linux: Docker
+    - Windows/Mac: Docker Desktop
 2. Start Docker:
     - Linux (Home Directory):
-      '''bash
+      ```bash
       sudo systemctl start docker
-      '''
+      ```
     - Windows: You can start Docker engine from Docker Desktop.
 
 3. Log in to Docker Hub from the terminal. You can log in with your password or access token:
