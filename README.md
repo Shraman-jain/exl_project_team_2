@@ -98,7 +98,7 @@ For more information on the dataset, you can refer to the [original dataset sour
 
 ## Usage
 
-- Launch the web app locally or through a deployed link (if available).
+- Launch the web app locally.
 - Input the transaction data including `V1`, `V2`, ..., `V28`, `Amount`, and `Time`.
 - Click **Predict** to check if the transaction is fraudulent or not.
 - Explore visualizations and the explanation of models used.
